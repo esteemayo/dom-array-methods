@@ -37,7 +37,7 @@ function doubleMoney() {
 
 // filter only millionaires
 function showMillionaires() {
-  data = data.filter((item) => item.money > 1000000);
+  data = data.filter((item) => item.money >= 1000000);
   updateDOM();
 }
 
